@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D79016CD-97D1-4323-93FA-72A890B9394D}"
+	ProjectSection(SolutionItems) = preProject
+		src\ByronLewisProject\Notes.txt = src\ByronLewisProject\Notes.txt
+		ProjectRequirementsDcoumentation.txt = ProjectRequirementsDcoumentation.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{212CDA75-2A06-496D-8123-70A4DAAA3936}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		Local.testsettings = Local.testsettings
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ByronLewisProject", "src\ByronLewisProject\ByronLewisProject.xproj", "{07A94EBB-081E-4C1B-B818-C1DF200D924B}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GrandeTestProject", "GrandeTestProject\GrandeTestProject.vbproj", "{8EBA169E-D009-405D-9C66-7E766607CD0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07A94EBB-081E-4C1B-B818-C1DF200D924B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07A94EBB-081E-4C1B-B818-C1DF200D924B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07A94EBB-081E-4C1B-B818-C1DF200D924B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07A94EBB-081E-4C1B-B818-C1DF200D924B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EBA169E-D009-405D-9C66-7E766607CD0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EBA169E-D009-405D-9C66-7E766607CD0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EBA169E-D009-405D-9C66-7E766607CD0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EBA169E-D009-405D-9C66-7E766607CD0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{07A94EBB-081E-4C1B-B818-C1DF200D924B} = {D79016CD-97D1-4323-93FA-72A890B9394D}
+	EndGlobalSection
+EndGlobal
